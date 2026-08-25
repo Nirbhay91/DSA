@@ -29,22 +29,35 @@
 | Triplets with Smaller Sum | Medium | Sorting + Two Pointers | [Solution](https://www.geeksforgeeks.org/problems/count-triplets-with-sum-smaller-than-x5549/1) |
 | Minimum Window Sort | Medium | Two Pointers + Boundary Expansion | [Solution](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) |
 | Subarrays with Product Less Than a Target | Medium | Sliding Window / Two Pointers | [Solution](https://leetcode.com/problems/subarray-product-less-than-k/) |
+| Reverse String | Easy | In-place Two Pointers | [Solution](https://leetcode.com/problems/reverse-string/) |
+| Valid Palindrome | Easy | Opposite-end Two Pointers | [Solution](https://leetcode.com/problems/valid-palindrome/) |
+| Reverse Vowels of a String | Easy | Two Pointers on Characters | [Solution](https://leetcode.com/problems/reverse-vowels-of-a-string/) |
+| Reverse Words in a String | Medium | String Two Pointers / Reverse | [Solution](https://leetcode.com/problems/reverse-words-in-a-string/) |
+| Reverse Words in a String II | Medium | In-place Two Pointers / Reverse | [Solution](https://leetcode.com/problems/reverse-words-in-a-string-ii/) |
+| Longest Palindromic Substring | Medium | Expand Around Center / Two Pointers | [Solution](https://leetcode.com/problems/longest-palindromic-substring/) |
+| Palindromic Substrings | Medium | Expand Around Center / Two Pointers | [Solution](https://leetcode.com/problems/palindromic-substrings/) |
+| Shortest Word Distance | Easy | Two Pointers / Index Tracking | [Solution](https://leetcode.com/problems/shortest-word-distance/) |
+| Shortest Word Distance II | Medium | Index Lists + Two Pointers | [Solution](https://leetcode.com/problems/shortest-word-distance-ii/) |
+| Shortest Word Distance III | Medium | Two Pointers / Index Tracking | [Solution](https://leetcode.com/problems/shortest-word-distance-iii/) |
+| Reverse Words in a String III | Easy | Per-word Two Pointers | [Solution](https://leetcode.com/problems/reverse-words-in-a-string-iii/) |
+| Reverse Only Letters | Easy | Opposite-end Two Pointers | [Solution](https://leetcode.com/problems/reverse-only-letters/) |
+| Valid Palindrome II | Easy | Two Pointers + One Deletion | [Solution](https://leetcode.com/problems/valid-palindrome-ii/) |
+| Shortest Palindrome | Hard | Two Pointers / Palindrome Prefix | [Solution](https://leetcode.com/problems/shortest-palindrome/) |
 
 ### Duplicate check
 
-The following problems were duplicates of the existing pattern-wise list and are retained only once:
-
 ```text
-Two Sum / Two Sum II → kept the correct Two Sum II variant for Two Pointers
-3Sum
-3Sum Closest
-4Sum
+Container With Most Water
 Remove Duplicates from Sorted Array
-Sort Colors
-Squares of a Sorted Array
+Remove Element
+Remove Duplicates from Sorted Array II
 Backspace String Compare
+Long Pressed Name
 Interval List Intersections
+Sort Transformed Array
 ```
+
+These were already present in this pattern and were retained only once.
 
 `Two Sum` itself is primarily a HashMap problem; `Two Sum II` is the canonical two-pointer version for a sorted array.
 
@@ -185,18 +198,8 @@ Interval List Intersections
 | K Closest Points to Origin | Medium | Heap / Top K | [Solution](https://leetcode.com/problems/k-closest-points-to-origin/) |
 | Find K Closest Elements | Medium | Heap / Binary Search | [Solution](https://leetcode.com/problems/find-k-closest-elements/) |
 | The K Weakest Rows in a Matrix | Easy | Heap | [Solution](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/) |
-| Merge K Sorted Arrays | Hard | Min Heap | [Solution](https://www.geeksforgeeks.org/problems/merge-k-sorted-arrays/1) |
-| Kth Smallest Element in a Sorted Matrix | Hard | Heap / Binary Search | [Solution](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) |
-| Last Stone Weight | Easy | Max Heap | [Solution](https://leetcode.com/problems/last-stone-weight/) |
-| Task Scheduler | Medium | Greedy + Heap | [Solution](https://leetcode.com/problems/task-scheduler/) |
-| Reorganize String | Medium | Greedy + Heap | [Solution](https://leetcode.com/problems/reorganize-string/) |
-| Minimum Number of Refueling Stops | Hard | Greedy + Max Heap | [Solution](https://leetcode.com/problems/minimum-number-of-refueling-stops/) |
-| IPO | Hard | Greedy + Heap | [Solution](https://leetcode.com/problems/ipo/) |
-| Course Schedule III | Hard | Greedy + Heap | [Solution](https://leetcode.com/problems/course-schedule-iii/) |
-| Find Median from Data Stream | Hard | Two Heaps | [Solution](https://leetcode.com/problems/find-median-from-data-stream/) |
-| Sliding Window Median | Hard | Two Heaps | [Solution](https://leetcode.com/problems/sliding-window-median/) |
 
-## 12. Recursion / Backtracking
+## 12. Recursion & Backtracking
 
 | Problem | Difficulty | Concept | Solution |
 |---|---|---|---|
@@ -205,121 +208,61 @@ Interval List Intersections
 | Combination Sum | Medium | Backtracking | [Solution](https://leetcode.com/problems/combination-sum/) |
 | Generate Parentheses | Medium | Backtracking | [Solution](https://leetcode.com/problems/generate-parentheses/) |
 | Letter Combinations of a Phone Number | Medium | Backtracking | [Solution](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |
-| N-Queens | Hard | Backtracking | [Solution](https://leetcode.com/problems/n-queens/) |
+| Word Search | Medium | DFS + Backtracking | [Solution](https://leetcode.com/problems/word-search/) |
 
 ## 13. Trees — Traversal
 
 | Problem | Difficulty | Concept | Solution |
 |---|---|---|---|
-| Binary Tree Preorder Traversal | Easy | DFS | [Solution](https://leetcode.com/problems/binary-tree-preorder-traversal/) |
-| Binary Tree Inorder Traversal | Easy | DFS | [Solution](https://leetcode.com/problems/binary-tree-inorder-traversal/) |
-| Binary Tree Postorder Traversal | Easy | DFS | [Solution](https://leetcode.com/problems/binary-tree-postorder-traversal/) |
-| Binary Tree Level Order Traversal | Medium | BFS | [Solution](https://leetcode.com/problems/binary-tree-level-order-traversal/) |
-| Zigzag Level Order Traversal | Medium | BFS | [Solution](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |
-| Right Side View | Medium | BFS / DFS | [Solution](https://leetcode.com/problems/binary-tree-right-side-view/) |
+| Binary Tree Inorder Traversal | Easy | DFS / Stack | [Solution](https://leetcode.com/problems/binary-tree-inorder-traversal/) |
+| Binary Tree Preorder Traversal | Easy | DFS / Stack | [Solution](https://leetcode.com/problems/binary-tree-preorder-traversal/) |
+| Binary Tree Postorder Traversal | Easy | DFS / Stack | [Solution](https://leetcode.com/problems/binary-tree-postorder-traversal/) |
+| Binary Tree Level Order Traversal | Medium | BFS / Queue | [Solution](https://leetcode.com/problems/binary-tree-level-order-traversal/) |
+| Zigzag Level Order Traversal | Medium | BFS / Deque | [Solution](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |
 
-## 14. Trees — Mirror / Symmetry
+## 14. Trees — Mirror & Symmetry
 
 | Problem | Difficulty | Concept | Solution |
 |---|---|---|---|
-| Invert Binary Tree | Easy | DFS / Tree Transformation | [Solution](https://leetcode.com/problems/invert-binary-tree/) |
-| Symmetric Tree | Easy | DFS / BFS | [Solution](https://leetcode.com/problems/symmetric-tree/) |
-| Same Tree | Easy | DFS | [Solution](https://leetcode.com/problems/same-tree/) |
-| Subtree of Another Tree | Easy | DFS | [Solution](https://leetcode.com/problems/subtree-of-another-tree/) |
-| Flip Equivalent Binary Trees | Medium | DFS | [Solution](https://leetcode.com/problems/flip-equivalent-binary-trees/) |
+| Symmetric Tree | Easy | DFS / Mirror | [Solution](https://leetcode.com/problems/symmetric-tree/) |
+| Invert Binary Tree | Easy | DFS / BFS | [Solution](https://leetcode.com/problems/invert-binary-tree/) |
+| Flip Equivalent Binary Trees | Medium | Recursion / Symmetry | [Solution](https://leetcode.com/problems/flip-equivalent-binary-trees/) |
 
 ## 15. Trees — Search / BST
 
 | Problem | Difficulty | Concept | Solution |
 |---|---|---|---|
-| Lowest Common Ancestor of a Binary Tree | Medium | DFS | [Solution](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) |
 | Search in a Binary Search Tree | Easy | BST Search | [Solution](https://leetcode.com/problems/search-in-a-binary-search-tree/) |
-| Lowest Common Ancestor of a BST | Easy | BST Property | [Solution](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) |
-| Lowest Common Ancestor of Deepest Leaves | Medium | DFS | [Solution](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) |
-| Two Sum IV — Input Is a BST | Easy | BST + HashSet | [Solution](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) |
-| Kth Smallest Element in a BST | Medium | Inorder / BST | [Solution](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) |
+| Insert into a Binary Search Tree | Medium | BST Insertion | [Solution](https://leetcode.com/problems/insert-into-a-binary-search-tree/) |
+| Validate Binary Search Tree | Medium | Inorder / Bounds | [Solution](https://leetcode.com/problems/validate-binary-search-tree/) |
+| Lowest Common Ancestor of a BST | Medium | BST Property | [Solution](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) |
 
 ## 16. Trees — Validation / Path / Construction
 
 | Problem | Difficulty | Concept | Solution |
 |---|---|---|---|
-| Minimum Depth of Binary Tree | Easy | BFS / DFS | [Solution](https://leetcode.com/problems/minimum-depth-of-binary-tree/) |
 | Maximum Depth of Binary Tree | Easy | DFS | [Solution](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |
-| Balanced Binary Tree | Easy | DFS | [Solution](https://leetcode.com/problems/balanced-binary-tree/) |
-| Diameter of Binary Tree | Easy | DFS + Height | [Solution](https://leetcode.com/problems/diameter-of-binary-tree/) |
-| Check Completeness of a Binary Tree | Medium | BFS | [Solution](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) |
-| Validate Binary Search Tree | Medium | DFS + Bounds | [Solution](https://leetcode.com/problems/validate-binary-search-tree/) |
-| Recover Binary Search Tree | Medium | Inorder | [Solution](https://leetcode.com/problems/recover-binary-search-tree/) |
-| Path Sum | Easy | DFS | [Solution](https://leetcode.com/problems/path-sum/) |
-| Path Sum II | Medium | DFS + Backtracking | [Solution](https://leetcode.com/problems/path-sum-ii/) |
-| Sum Root to Leaf Numbers | Medium | DFS | [Solution](https://leetcode.com/problems/sum-root-to-leaf-numbers/) |
-| Binary Tree Maximum Path Sum | Hard | DFS + DP | [Solution](https://leetcode.com/problems/binary-tree-maximum-path-sum/) |
+| Diameter of Binary Tree | Easy | DFS / Height | [Solution](https://leetcode.com/problems/diameter-of-binary-tree/) |
+| Balanced Binary Tree | Easy | DFS / Height | [Solution](https://leetcode.com/problems/balanced-binary-tree/) |
+| Path Sum | Easy | DFS / Path | [Solution](https://leetcode.com/problems/path-sum/) |
+| Path Sum II | Medium | DFS / Backtracking | [Solution](https://leetcode.com/problems/path-sum-ii/) |
 | Construct Binary Tree from Preorder and Inorder Traversal | Medium | Recursion + HashMap | [Solution](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |
-| Construct Binary Tree from Inorder and Postorder Traversal | Medium | Recursion + HashMap | [Solution](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) |
-| Convert Sorted Array to Binary Search Tree | Easy | Divide & Conquer | [Solution](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) |
 
 ## 17. Graphs
 
 | Problem | Difficulty | Concept | Solution |
 |---|---|---|---|
-| Construct Adjacency List from Edges + Nodes | Easy | Graph Representation | [Solution](https://www.geeksforgeeks.org/problems/print-adjacency-list-1587115620/1) |
-| Graph DFS | Easy | DFS | [Solution](https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1) |
-| Graph BFS | Easy | BFS | [Solution](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1) |
 | Number of Islands | Medium | DFS / BFS | [Solution](https://leetcode.com/problems/number-of-islands/) |
-| Number of Provinces | Medium | DFS / BFS / DSU | [Solution](https://leetcode.com/problems/number-of-provinces/) |
-| Rotting Oranges | Medium | Multi-source BFS | [Solution](https://leetcode.com/problems/rotting-oranges/) |
-| Cycle Detection in Undirected Graph | Medium | DFS / BFS / DSU | [Solution](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1) |
-| Cycle Detection in Directed Graph | Medium | DFS / Topological Sort | [Solution](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) |
-| Topological Sort | Medium | Topological Sort | [Solution](https://www.geeksforgeeks.org/problems/topological-sort/1) |
-| Is Graph Bipartite? | Medium | BFS / DFS Coloring | [Solution](https://leetcode.com/problems/is-graph-bipartite/) |
-| Surrounded Regions | Medium | DFS / BFS | [Solution](https://leetcode.com/problems/surrounded-regions/) |
-| Shortest Path in Undirected Graph with Unit Distance | Medium | BFS | [Solution](https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1) |
-| Dijkstra's Algorithm | Medium | Dijkstra / Min Heap | [Solution](https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1) |
-| Network Delay Time | Medium | Dijkstra | [Solution](https://leetcode.com/problems/network-delay-time/) |
-| Path With Minimum Effort | Medium | Dijkstra / Binary Search | [Solution](https://leetcode.com/problems/path-with-minimum-effort/) |
-| Swim in Rising Water | Hard | Dijkstra / Binary Search | [Solution](https://leetcode.com/problems/swim-in-rising-water/) |
-| Bellman-Ford | Medium | Bellman-Ford | [Solution](https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1) |
-| Cheapest Flights Within K Stops | Medium | Bellman-Ford Variant / DP | [Solution](https://leetcode.com/problems/cheapest-flights-within-k-stops/) |
-| Prim MST | Medium | Minimum Spanning Tree | [Solution](https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1) |
-| Word Ladder | Hard | BFS | [Solution](https://leetcode.com/problems/word-ladder/) |
+| Clone Graph | Medium | DFS / BFS + HashMap | [Solution](https://leetcode.com/problems/clone-graph/) |
+| Course Schedule | Medium | Topological Sort / Cycle Detection | [Solution](https://leetcode.com/problems/course-schedule/) |
+| Number of Connected Components | Medium | DFS / Union-Find | [Solution](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) |
 
 ## 18. Dynamic Programming
 
 | Problem | Difficulty | Concept | Solution |
 |---|---|---|---|
-| Fibonacci Number | Easy | 1D DP | [Solution](https://leetcode.com/problems/fibonacci-number/) |
 | Climbing Stairs | Easy | 1D DP | [Solution](https://leetcode.com/problems/climbing-stairs/) |
 | House Robber | Medium | 1D DP | [Solution](https://leetcode.com/problems/house-robber/) |
-| 0/1 Knapsack | Medium | DP / Knapsack | [Solution](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1) |
-| Subset Sum | Medium | DP / Knapsack | [Solution](https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1) |
-| Target Sum | Medium | DP / Knapsack | [Solution](https://www.geeksforgeeks.org/problems/target-sum-1626326450/1) |
-| Longest Increasing Subsequence | Medium | DP / LIS | [Solution](https://leetcode.com/problems/longest-increasing-subsequence/) |
-| Longest Common Subsequence | Medium | DP / LCS | [Solution](https://leetcode.com/problems/longest-common-subsequence/) |
-| Unique Paths | Medium | Grid DP | [Solution](https://leetcode.com/problems/unique-paths/) |
-| Best Time to Buy and Sell Stock | Easy | DP / Greedy | [Solution](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
-| Best Time to Buy and Sell Stock II | Medium | DP / Greedy | [Solution](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) |
-| Best Time to Buy and Sell Stock III | Hard | DP / State Machine | [Solution](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) |
-| Best Time to Buy and Sell Stock IV | Hard | DP / State Machine | [Solution](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) |
-| Minimum Cost to Cut a Stick | Hard | Interval DP | [Solution](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/) |
-
----
-
-## 🔥 Interview Revision Order
-
-```text
-Two Pointers
-→ Fast & Slow
-→ Sliding Window
-→ Prefix Sum
-→ Kadane
-→ Merge Intervals
-→ Linked List
-→ Stack
-→ HashMap
-→ Binary Search
-→ Heap
-→ Recursion / Backtracking
-→ Trees
-→ Graphs
-→ Dynamic Programming
-```
+| Coin Change | Medium | Unbounded Knapsack / DP | [Solution](https://leetcode.com/problems/coin-change/) |
+| Longest Increasing Subsequence | Medium | DP / Binary Search | [Solution](https://leetcode.com/problems/longest-increasing-subsequence/) |
+| Longest Common Subsequence | Medium | 2D DP | [Solution](https://leetcode.com/problems/longest-common-subsequence/) |
