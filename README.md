@@ -44,25 +44,6 @@
 | Valid Palindrome II | Easy | Two Pointers + One Deletion | [Solution](https://leetcode.com/problems/valid-palindrome-ii/) |
 | Shortest Palindrome | Hard | Two Pointers / Palindrome Prefix | [Solution](https://leetcode.com/problems/shortest-palindrome/) |
 
-### Duplicate check
-
-```text
-Container With Most Water
-Remove Duplicates from Sorted Array
-Remove Element
-Remove Duplicates from Sorted Array II
-Backspace String Compare
-Long Pressed Name
-Interval List Intersections
-Sort Transformed Array
-```
-
-These were already present in this pattern and were retained only once.
-
-`Two Sum` itself is primarily a HashMap problem; `Two Sum II` is the canonical two-pointer version for a sorted array.
-
----
-
 ## 2. Fast & Slow Pointers
 
 | Problem | Difficulty | Concept | Solution |
@@ -78,19 +59,33 @@ These were already present in this pattern and were retained only once.
 
 ## 3. Sliding Window
 
-| Problem | Difficulty | Concept | Solution |
-|---|---|---|---|
-| Maximum Sum Subarray of Size K | Easy | Fixed Sliding Window | [Solution](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1) |
-| Minimum Size Subarray Sum | Medium | Variable Sliding Window | [Solution](https://leetcode.com/problems/minimum-size-subarray-sum/) |
-| Longest Substring with K Distinct Characters | Medium | Sliding Window + HashMap | [Solution](https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1) |
-| Fruit Into Baskets | Medium | Sliding Window + Frequency | [Solution](https://leetcode.com/problems/fruit-into-baskets/) |
-| Longest Substring Without Repeating Characters | Medium | Sliding Window + HashSet/Map | [Solution](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
-| Longest Repeating Character Replacement | Medium | Sliding Window + Frequency | [Solution](https://leetcode.com/problems/longest-repeating-character-replacement/) |
-| Max Consecutive Ones III | Medium | Sliding Window | [Solution](https://leetcode.com/problems/max-consecutive-ones-iii/) |
-| Minimum Window Substring | Hard | Sliding Window + Frequency | [Solution](https://leetcode.com/problems/minimum-window-substring/) |
-| Permutation in String | Medium | Sliding Window + Frequency | [Solution](https://leetcode.com/problems/permutation-in-string/) |
-| Find All Anagrams in a String | Medium | Sliding Window + Frequency | [Solution](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |
-| Substring with Concatenation of All Words | Hard | Sliding Window + Frequency Map | [Solution](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) |
+| Problem | Difficulty | Concept | Solution | Reference / My Solution |
+|---|---|---|---|---|
+| 3. Longest Substring Without Repeating Characters | Medium | Sliding Window + HashSet/HashMap | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Reference](https://walkccc.me/LeetCode/problems/3/) · [My Solution](https://app.notion.com/p/3-Longest-Substring-Without-Repeating-Characters-My-Solution-3a8b63f7c2ee81288631d982de607b4e?pvs=21) |
+| 159. Longest Substring with At Most Two Distinct Characters | Medium | Sliding Window + Frequency Map | [LeetCode](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [Reference](https://walkccc.me/LeetCode/problems/159/) · [My Solution](https://app.notion.com/p/159-Longest-Substring-with-At-Most-Two-Distinct-Characters-My-Solution-3a8b63f7c2ee81aab85ffcc6f77337d5?pvs=21) |
+| 340. Longest Substring with At Most K Distinct Characters | Medium | Sliding Window + Frequency Map | [LeetCode](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [Reference](https://walkccc.me/LeetCode/problems/340/) · [My Solution](https://app.notion.com/p/340-Longest-Substring-with-At-Most-K-Distinct-Characters-My-Solution-3a8b63f7c2ee8134adb9ef79df75535e?pvs=21) |
+| 76. Minimum Window Substring | Hard | Sliding Window + Frequency | [LeetCode](https://leetcode.com/problems/minimum-window-substring/) | [Reference](https://walkccc.me/LeetCode/problems/76/) · [My Solution](https://app.notion.com/p/76-Minimum-Window-Substring-My-Solution-3a8b63f7c2ee81469958c97b6121c7bb?pvs=21) |
+| 30. Substring with Concatenation of All Words | Hard | Sliding Window + Frequency Map | [LeetCode](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Reference](https://walkccc.me/LeetCode/problems/30/) · [My Solution](https://app.notion.com/p/30-Substring-with-Concatenation-of-All-Words-My-Solution-3a8b63f7c2ee8122b4d8f98fff026116?pvs=21) |
+| 424. Longest Repeating Character Replacement | Medium | Sliding Window + Frequency | [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Reference](https://walkccc.me/LeetCode/problems/424/) · [My Solution](https://app.notion.com/p/424-Longest-Repeating-Character-Replacement-My-Solution-3a8b63f7c2ee81a4a040c72917fe575e?pvs=21) |
+| 1004. Max Consecutive Ones III | Medium | Sliding Window | [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/) | [Reference](https://walkccc.me/LeetCode/problems/1004/) · [My Solution](https://app.notion.com/p/1004-Max-Consecutive-Ones-III-My-Solution-3a8b63f7c2ee8172acd5e8f61973d627?pvs=21) |
+| 239. Sliding Window Maximum | Hard | Monotonic Deque | [LeetCode](https://leetcode.com/problems/sliding-window-maximum/) | [Reference](https://walkccc.me/LeetCode/problems/239/) · [My Solution](https://app.notion.com/p/239-Sliding-Window-Maximum-My-Solution-3a8b63f7c2ee81fda1c3ce1e158f3d7d?pvs=21) |
+| 1456. Maximum Number of Vowels in a Substring of Given Length | Medium | Fixed Sliding Window | [LeetCode](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | [Reference](https://walkccc.me/LeetCode/problems/1456/) · [My Solution](https://app.notion.com/p/1456-Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length-My-Solution-3a8b63f7c2ee81e99f12d08636c05762?pvs=21) |
+| 1208. Get Equal Substrings Within Budget | Medium | Variable Sliding Window + Cost | [LeetCode](https://leetcode.com/problems/get-equal-substrings-within-budget/) | [Reference](https://walkccc.me/LeetCode/problems/1208/) · [My Solution](https://app.notion.com/p/1208-Get-Equal-Substrings-Within-Budget-My-Solution-3a8b63f7c2ee81278814e5e58ab80c59?pvs=21) |
+| 904. Fruit Into Baskets | Medium | At Most 2 Distinct / Sliding Window | [LeetCode](https://leetcode.com/problems/fruit-into-baskets/) | [Reference](https://walkccc.me/LeetCode/problems/904/) · [My Solution](https://app.notion.com/p/904-Fruit-Into-Baskets-My-Solution-3a8b63f7c2ee8194b0aececb27412fec?pvs=21) |
+| 487. Max Consecutive Ones II | Medium | At Most 1 Zero / Sliding Window | [LeetCode](https://leetcode.com/problems/max-consecutive-ones-ii/) | [Reference](https://walkccc.me/LeetCode/problems/487/) · [My Solution](https://app.notion.com/p/487-Max-Consecutive-Ones-II-My-Solution-3a8b63f7c2ee8144b519fcbb51b1e7c1?pvs=21) |
+| 1052. Grumpy Bookstore Owner | Medium | Fixed Sliding Window + Gain Tracking | [LeetCode](https://leetcode.com/problems/grumpy-bookstore-owner/) | [Reference](https://walkccc.me/LeetCode/problems/1052/) · [My Solution](https://app.notion.com/p/1052-Grumpy-Bookstore-Owner-My-Solution-3a8b63f7c2ee810f8823d34bc8b732a5?pvs=21) |
+| 1423. Maximum Points You Can Obtain from Cards | Medium | Complement Window / Sliding Window | [LeetCode](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | [Reference](https://walkccc.me/LeetCode/problems/1423/) · [My Solution](https://app.notion.com/p/1423-Maximum-Points-You-Can-Obtain-from-Cards-My-Solution-3a8b63f7c2ee8142ab11d4294026f4ed?pvs=21) |
+| 1658. Minimum Operations to Reduce X to Zero | Medium | Prefix Sum / Sliding Window Transformation | [LeetCode](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | [Reference](https://walkccc.me/LeetCode/problems/1658/) · [My Solution](https://app.notion.com/p/1658-Minimum-Operations-to-Reduce-X-to-Zero-My-Solution-3a8b63f7c2ee8147b4effca453eb2a61?pvs=21) |
+| Maximum Sum Subarray of Size K | Easy | Fixed Sliding Window | [Solution](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1) | — |
+| Minimum Size Subarray Sum | Medium | Variable Sliding Window | [Solution](https://leetcode.com/problems/minimum-size-subarray-sum/) | — |
+| Permutation in String | Medium | Sliding Window + Frequency | [Solution](https://leetcode.com/problems/permutation-in-string/) | — |
+| Find All Anagrams in a String | Medium | Sliding Window + Frequency | [Solution](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | — |
+
+### Duplicate cleanup
+
+The requested list was merged with the existing Sliding Window section. Duplicate problems such as `Longest Substring Without Repeating Characters` and `Fruit Into Baskets` were kept only once.
+
+---
 
 ## 4. Kadane Pattern
 
